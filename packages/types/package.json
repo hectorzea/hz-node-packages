@@ -1,0 +1,14 @@
+{
+  "name": "@hectorzea1994/types",
+  "version": "1.0.6",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
+}
