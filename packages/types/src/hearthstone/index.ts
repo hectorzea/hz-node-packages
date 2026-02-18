@@ -1,3 +1,4 @@
+//Card Match Result Interface
 export interface CardMatchResult {
   cardId: string;
   totalGames: number;
