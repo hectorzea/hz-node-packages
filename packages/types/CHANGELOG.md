@@ -1,5 +1,11 @@
 # @hectorzea1994/types
 
+## 1.1.1
+
+### Patch Changes
+
+- 41b3572: DIST ON JOB SEARCH
+
 ## 1.1.0
 
 ### Minor Changes
