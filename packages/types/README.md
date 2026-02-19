@@ -2,8 +2,6 @@
 
 Tipos TypeScript compartidos para proyectos Frontbuild.
 
----
-
 ## 📦 Instalación
 
 ```bash

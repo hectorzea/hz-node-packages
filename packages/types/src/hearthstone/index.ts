@@ -1,8 +1,57 @@
-//Card Match Result Interface Test
+//Hearthstone Project Types
 export interface CardMatchResult {
   cardId: string;
   totalGames: number;
   wins: number;
   winrate: number;
   cardName: string;
+}
+
+export interface Card {
+  __v: number;
+  _id: string;
+  id: string;
+  dbfId: number;
+  name: string;
+  text: string;
+  flavor?: string;
+  artist: string;
+  attack?: number;
+  cardClass: string;
+  collectible?: boolean;
+  cost: number;
+  elite?: boolean;
+  faction?: string;
+  health?: number;
+  mechanics: string[];
+  rarity?: string;
+  set: string;
+  type: string;
+  imageUrl: string;
+}
+
+export interface CardMatchRequestPayload {
+  matchUrl: string;
+  win: boolean;
+}
+
+export interface CardMatchResult {
+  cardId: string;
+  totalGames: number;
+  wins: number;
+  winrate: number;
+  cardName: string;
+}
+
+export interface Game {
+  myClassId: string;
+  oponentClassId: string;
+  numberOfTurns: string;
+  matchResult: string;
+  mulligan: Mulligan;
+}
+
+export interface Mulligan {
+  initialCardsIds: string[];
+  discardedCardsIds: string[];
 }
