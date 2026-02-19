@@ -12,4 +12,5 @@ If you want to make changes remember we have changesets
 1) make your local changes
 2) execute ```npx changeset```
 3) commit and push the changes
-4) merge and then publish
+4) execute ```npx changeset version```
+5) merge and then publish
