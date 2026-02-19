@@ -1,6 +1,6 @@
 {
   "name": "@hectorzea1994/types",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "private": false,
   "type": "module",
   "main": "./dist/index.js",

@@ -6,3 +6,4 @@ Tipos TypeScript compartidos para proyectos Frontbuild.
 
 ```bash
 npm install @hectorzea1994/types
+```
